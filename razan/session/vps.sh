@@ -3,8 +3,8 @@
 JMTHON="\nJMTHON USERBOT DEPLOY ON VPS"
 JMTHON+="\n "
 JMTHON+="\n "
-JMTHON+="\n★ Channel: @JMTHON ★"
-JMTHON+="\n★ Support: @jmthon_support ★"
+JMTHON+="\n★ Channel: @c9c99c ★"
+JMTHON+="\n★ Support: @fireblackthon ★"
 JMTHON+="\n "
 ROZ="\n "
 echo -e $JMTHON
@@ -78,7 +78,7 @@ sudo su - postgres -c "psql" <<EOF
 
 ALTER USER postgres WITH PASSWORD '$PASSWORD';
 
-CREATE DATABASE jmthon;
+CREATE DATABASE fireblack;
 
 \q
 exit
