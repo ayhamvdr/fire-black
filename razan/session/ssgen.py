@@ -62,7 +62,7 @@ def telethon_session():
     # logging in
     try:
         with TelegramClient(StringSession(), API_ID, API_HASH) as jmthon:
-            print("Generating a string session for •JMTHON•")
+            print("Generating a string session for •fireblack•")
             try:
                 jmthon.send_message(
                     "me",
@@ -90,7 +90,7 @@ def telethon_session():
     except Exception as er:
         print("Unexpected Error Occurred while Creating Session")
         print(er)
-        print("If you think It as a Bug, Report to @jmthon_support\n\n")
+        print("If you think It as a Bug, Report to @fireblackthon\n\n")
 
 
 def pyro_session():
