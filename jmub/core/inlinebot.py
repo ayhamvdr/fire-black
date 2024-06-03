@@ -30,7 +30,7 @@ from .logger import logging
 LOGS = logging.getLogger(__name__)
 
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
-CATLOGO = "https://graph.org/file/88f00e9c84c0a01207adb.jpg"
+CATLOGO = "https://telegra.ph/file/2ae5773db58480f68896c.jpg"
 tr = Config.COMMAND_HAND_LER
 
 
@@ -228,7 +228,7 @@ async def inline_handler(event):
             buttons = [
                 (
                     Button.inline("Stats", data="stats"),
-                    Button.url("DEV", "https://t.me/JMTHON"),
+                    Button.url("DEV", "https://t.me/Jzxthon"),
                 )
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -569,14 +569,14 @@ async def inline_handler(event):
             url=CATLOGO, size=0, mime_type="image/jpeg", attributes=[]
         )
         text, msg_entities = await event.client._parse_message_text(
-            "لجعل جمثون من نصيبك!", "md"
+            "لجعل بلاكفاير من نصيبك!", "md"
         )
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="[𝙅𝙈𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/JMTHON)",
+            title="[Fire Black 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/zxthon)",
             description="لتنصيبه لك",
-            url="t.me/JMTHON",
+            url="t.me/c9c99c",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
