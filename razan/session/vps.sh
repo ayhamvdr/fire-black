@@ -1,13 +1,13 @@
 #!/bin/bash
 
-JMTHON="\nJMTHON USERBOT DEPLOY ON VPS"
-JMTHON+="\n "
-JMTHON+="\n "
-JMTHON+="\n★ Channel: @c9c99c ★"
-JMTHON+="\n★ Support: @fireblackthon ★"
-JMTHON+="\n "
+fire="\nfireblack USERBOT DEPLOY ON VPS"
+fire+="\n "
+fire+="\n "
+fire+="\n★ Channel: @c9c99c ★"
+fire+="\n★ Support: @fireblackthon ★"
+fire+="\n "
 ROZ="\n "
-echo -e $JMTHON
+echo -e $fire
 echo -e $ROZ
 echo "WAIT ..."
 echo -e $ROZ
@@ -54,14 +54,14 @@ nodejs
 clear
 echo "⚙️ Github Installer"
 echo -e $ROZ
-echo -e $JMTHON
+echo -e $fire
 echo -e $ROZ
 echo "Cloning jmthon Userbot"
 echo -e $ROZ
 git clone -b bro https://github.com/thejmthon/sbb_b0
-echo -e $JMTHON
+echo -e $fire
 echo -e $ROZ
-echo "runing jmthon now"
+echo "runing fire now"
 echo -e $ROZ
 cd sbb_b0
 
@@ -115,5 +115,5 @@ echo "STRING_SESSION=$session" >> .env
 echo "TG_BOT_TOKEN=$token" >> .env
 echo "DATABASE_URL=$DATABASE_URL" >> .env
 clear
-echo -e $JMTHON
+echo -e $fire
 echo -e $ROZ
