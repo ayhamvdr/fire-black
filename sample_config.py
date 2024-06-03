@@ -165,4 +165,4 @@ class Development(Config):
     LOGGER = True
 
 
-# https:t.me/jmthon
+# Fire Black
